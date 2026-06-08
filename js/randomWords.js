@@ -9,7 +9,7 @@ function getQueryParam(param) {
 function loadRandomWords() {
     let storedWords = localStorage.getItem(randomWordsKey);
 
-    let result = storedWords ? JSON.parse(storedWords) : ["新年快乐", "恭喜发财"];
+    let result = storedWords ? JSON.parse(storedWords) : ["新年快乐", "万事如意", "恭喜发财", "阖家团圆"];
     // 处理 URL 参数 q
     const q = getQueryParam("q");
 
